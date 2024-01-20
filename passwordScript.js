@@ -9,7 +9,7 @@ function generateSecurePassword() {
         return charSet[randomIndex];
     };
 
-    const password =
+    let password =
         getRandomChar(lowercaseLetters) +
         getRandomChar(uppercaseLetters) +
         getRandomChar(numbers) +
